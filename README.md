@@ -6,10 +6,6 @@ A project involving two LSTM Neural Networks to generate text based on numerous 
 
 Training is done on Kaggle using a GPU in order to speed up the training process. Any changes made to the Python files are either code quality improvement, or tuning the neural network.
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [Python](https://www.python.org/) - Language used

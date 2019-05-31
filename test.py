@@ -8,7 +8,7 @@ from keras.utils import np_utils
 
 #
 
-text=(open("sonnets.txt").read())
+text=(open("starwars2.txt").read())
 text=text.lower()
 
 version = 1
@@ -39,18 +39,18 @@ model = Sequential()
 
 #Import model
 model = Sequential()
-model.add(LSTM(700, input_shape=(X_modified.shape[1], X_modified.shape[2]), return_sequences=True))
+model.add(LSTM(300, input_shape=(X_modified.shape[1], X_modified.shape[2]), return_sequences=True))
 model.add(Dropout(0.2))
-model.add(LSTM(700, return_sequences=True))
+model.add(LSTM(300, return_sequences=True))
 model.add(Dropout(0.2))
-model.add(LSTM(700))
+model.add(LSTM(300))
 model.add(Dropout(0.2))
 model.add(Dense(Y_modified.shape[1], activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam')
 
-model.load_weights("weights/weights3.h5")
+model.load_weights("weights/starwars.hdf5")
 
-string_mapped = X[99]
+string_mapped = X[5]
 
 
 full_string = [n_to_char[value] for value in string_mapped]
