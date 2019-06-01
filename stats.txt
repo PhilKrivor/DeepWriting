@@ -1,0 +1,5 @@
+Initial Training for Harry Potter 1: 
+100 EPOCHS w/ 1 LSTM layer (128 units) with a batch size of 128 (Final Loss used: 0.0628)
+
+Second Training for Harry Potter 1:
+100 EPOCHS w/ 2 LSTM layers (512 each) with a batch size of 256 (Final Loss used: ___)
