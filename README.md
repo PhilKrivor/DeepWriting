@@ -25,4 +25,5 @@ For the versions available, see the [tags on this repository](https://github.com
 * [Machine Learning Mastery](https://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/)
 * [Analytics Vidhaya](https://www.analyticsvidhya.com/blog/2018/03/text-generation-using-python-nlp/)
 * [Kaggle](https://www.kaggle.com/shivamb/beginners-guide-to-text-generation-using-lstms)
+* [Medium](https://medium.com/coinmonks/word-level-lstm-text-generator-creating-automatic-song-lyrics-with-neural-networks-b8a1617104fb)
 
